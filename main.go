@@ -9,8 +9,8 @@ func main() {
 	)
 	walletSize := 23_00
 
-	basket := func(applesNumber, pearsNumber int) int {
-		return applesNumber*applePrice + pearsNumber*pearPrice
+	basket := func(applesQuantity, pearsQuantity int) int {
+		return applesQuantity*applePrice + pearsQuantity*pearPrice
 	}
 
 	shoppingList := map[string]interface{}{
